@@ -5,7 +5,40 @@
     <projectFile profileName="IIS Express">../BulkyBookWeb/BulkyBookWeb.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="" />
+    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/BulkyBook.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/BulkyBook.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/BulkyBook.Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/BulkyBook.Data.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/BulkyBook.Data.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/BulkyBook.Data.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/BulkyBook.Data.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/BulkyBook.Data.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/BulkyBook.Models.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/BulkyBook.Models.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/BulkyBook.Models.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/BulkyBook.Models.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/BulkyBook.Models.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/BulkyBook.Models.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/BulkyBook.Models.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/BulkyBook.Models.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/BulkyBook.Utility.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/BulkyBook.Utility.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/obj/BulkyBook.Utility.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/obj/BulkyBook.Utility.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/obj/BulkyBook.Utility.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/obj/BulkyBook.Utility.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/obj/BulkyBook.Utility.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/obj/BulkyBook.Utility.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/obj/Debug/net6.0/BulkyBook.Utility.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/obj/Debug/net6.0/BulkyBook.Utility.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/obj/Debug/net6.0/BulkyBook.Utility.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/obj/Debug/net6.0/BulkyBook.Utility.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,18 +51,19 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29bOtq6hbsldBwlsWiBcxBuEmrl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BulkyBookWeb">
     <configuration name="BulkyBookWeb" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/../BulkyBookWeb/BulkyBookWeb.csproj" />
@@ -70,14 +104,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653378538617</updated>
-      <workItem from="1653378545663" duration="354000" />
+      <workItem from="1653378545663" duration="2485000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
