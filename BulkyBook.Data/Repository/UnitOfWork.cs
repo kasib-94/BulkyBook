@@ -1,5 +1,6 @@
 ﻿using BulkyBook.Data.Data;
 using BulkyBook.Data.IRepository;
+using BulkyBook.Models;
 
 namespace BulkyBook.Data.Repository;
 
@@ -11,11 +12,13 @@ public class UnitOfWork: IUnitOfWork
     {
         _db = db;
         Category = new CategoryRepository(_db);
+        CoverType = new CoverTypeRepository(_db);
     }
     public ICategoryRepository Category { get; private set; }
+    public ICoverTypeRepository CoverType { get; private set; }
 
     public void Save()
     {
-        throw new NotImplementedException();
+        _db.SaveChanges();
     }
 }
