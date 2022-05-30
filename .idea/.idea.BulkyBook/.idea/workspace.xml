@@ -8,7 +8,8 @@
     <projectFile profileName="IIS Express">../../Desktop/BulkyBook/BulkyBook.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="commiting after fixing error">
+    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/Controllers/CategoryController.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/Controllers/HomeController.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/Data/ApplicationDbContext.cs" afterDir="false" />
@@ -406,14 +407,24 @@
       <change afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBook.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBook.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBook.csproj.nuget.g.targets" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBookWeb.csproj.EntityFrameworkCore.targets" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBookWeb.csproj.nuget.dgspec.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBookWeb.csproj.nuget.g.props" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBookWeb.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.GlobalUsings.g.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.RazorAssemblyInfo.cache" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.AssemblyReference.cache" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.CopyComplete" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -448,6 +459,10 @@
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/scopedcss/projectbundle/BulkyBookWeb.bundle.scp.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/obj/rider.project.restore.info" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/obj/staticwebassets.pack.sentinel" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/wwwroot/css/bootswatchTheme.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BulkyBook/wwwroot/css/site.css" afterDir="false" />
@@ -512,19 +527,6 @@
       <change afterPath="$PROJECT_DIR$/BulkyBook/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/BulkyBook.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBook.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/BulkyBook.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBook.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/BulkyBook.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/BulkyBook.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -542,7 +544,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="29bOtq6hbsldBwlsWiBcxBuEmrl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -582,7 +584,7 @@
       </method>
     </configuration>
     <configuration name="BulkyBook" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$USER_HOME$/Desktop/BulkyBook/BulkyBook.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
       <option name="LAUNCH_PROFILE_NAME" value="BulkyBookWeb" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -657,7 +659,7 @@
       <workItem from="1653815557635" duration="1343000" />
       <workItem from="1653903485731" duration="5542000" />
       <workItem from="1653915269380" duration="81000" />
-      <workItem from="1653915504651" duration="3694000" />
+      <workItem from="1653915504651" duration="5007000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -680,7 +682,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653918127976</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <created>1653919343832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653919343832</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".">
+      <created>1653919384118</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653919384118</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,7 +720,8 @@
     <MESSAGE value="adding aditional projects for db and model and utility" />
     <MESSAGE value="attaching main project, adding Respository Pattern" />
     <MESSAGE value="commiting after fixing error" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting after fixing error" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
