@@ -34,3 +34,7 @@ function loadDataTable() {
         ]
     });
 }
+
+function Delete(url){
+    
+}

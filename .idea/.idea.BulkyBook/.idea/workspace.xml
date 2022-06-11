@@ -9,52 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/ProductViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Product/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Product/Upsert.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/wwwroot/js/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IUnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/Repository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/UnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/bin/Debug/net6.0/BulkyBook.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/bin/Debug/net6.0/BulkyBook.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/bin/Debug/net6.0/BulkyBook.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/bin/Debug/net6.0/BulkyBook.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/bin/Debug/net6.0/BulkyBook.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/bin/Debug/net6.0/BulkyBook.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/bin/Debug/net6.0/BulkyBook.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/bin/Debug/net6.0/BulkyBook.Models.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/ref/BulkyBook.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/ref/BulkyBook.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/refint/BulkyBook.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/refint/BulkyBook.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/bin/Debug/net6.0/BulkyBook.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/bin/Debug/net6.0/BulkyBook.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/bin/Debug/net6.0/BulkyBook.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/bin/Debug/net6.0/BulkyBook.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/BulkyBook.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/ref/BulkyBook.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/ref/BulkyBook.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/refint/BulkyBook.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/obj/Debug/net6.0/refint/BulkyBook.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.Models.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/bin/Debug/net6.0/BulkyBook.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/BulkyBook.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/ref/BulkyBook.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/ref/BulkyBook.dll" afterDir="false" />
@@ -62,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/wwwroot/js/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/wwwroot/js/product.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +169,8 @@
       <workItem from="1654004997472" duration="16677000" />
       <workItem from="1654081064874" duration="7841000" />
       <workItem from="1654092145209" duration="1160000" />
-      <workItem from="1654099654613" duration="9761000" />
+      <workItem from="1654099654613" duration="13130000" />
+      <workItem from="1654596638737" duration="6436000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -266,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653933417911</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creating Upsert.cshtml for Product controller, creating Index for productcontroller and datatable">
+      <created>1654110909640</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654110909640</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +263,8 @@
     <MESSAGE value="adding main project after fatal error" />
     <MESSAGE value="adding crud and controller for CoverType.cs,&#10;separating controllers for Admin and Customer Areas" />
     <MESSAGE value="fixing bootswatch, adding Product Model, fixing Nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing bootswatch, adding Product Model, fixing Nav" />
+    <MESSAGE value="Creating Upsert.cshtml for Product controller, creating Index for productcontroller and datatable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Upsert.cshtml for Product controller, creating Index for productcontroller and datatable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,19 +281,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs</url>
-          <line>99</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\ProductController.cs" initialLine="99" containingFunctionPresentation="method 'Upsert'">
-            <startOffsets>
-              <option value="2899" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2932" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
