@@ -114,8 +114,8 @@ public class ProductController : Controller
     }
 
 
-    [HttpPost]
-    [ValidateAntiForgeryToken]
+    [HttpDelete]
+ 
     public IActionResult Delete(int? id)
     {
         var obj = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
@@ -132,7 +132,7 @@ public class ProductController : Controller
 
         _unitOfWork.Product.Remove(obj);
         _unitOfWork.Product.Save();
-        return Json(new { success = false, message = "Deleted successfully " });
+        return Json(new { success = true, message = "Deleted successfully " });
     }
 
     #endregion
