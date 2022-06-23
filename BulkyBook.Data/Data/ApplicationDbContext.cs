@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BulkyBook.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace BulkyBook.Data.Data;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : IdentityDbContext
 {
 
     public DbSet<Category>? Categories { get; set; }  
