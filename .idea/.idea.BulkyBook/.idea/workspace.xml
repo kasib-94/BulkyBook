@@ -8,20 +8,23 @@
     <projectFile profileName="IIS Express">../../Desktop/BulkyBook/BulkyBook.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="Adding Detalis to Home Controller/ Adding Details View">
+    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="identity adding files">
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/CompanyRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/ICompanyRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Models/ApplicationUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Models/Company.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CompanyController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/BulkyBook.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/BulkyBook.Data.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/BulkyBook.Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/BulkyBook.Data.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/UnitOfWork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/ScaffoldingReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +176,8 @@
       <workItem from="1655816859487" duration="1278000" />
       <workItem from="1655899181816" duration="14657000" />
       <workItem from="1655931902629" duration="2526000" />
-      <workItem from="1655973532202" duration="4949000" />
+      <workItem from="1655973532202" duration="11490000" />
+      <workItem from="1656189163628" duration="5104000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -266,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655988502298</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding scaffolded identity">
+      <created>1655989468681</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655989468681</updated>
+    </task>
+    <task id="LOCAL-00015" summary="identity adding files">
+      <created>1655989532867</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655989532867</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +317,9 @@
     <MESSAGE value="finishing delete/ excluding bin and obj files" />
     <MESSAGE value="aa" />
     <MESSAGE value="Adding Detalis to Home Controller/ Adding Details View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Detalis to Home Controller/ Adding Details View" />
+    <MESSAGE value="adding scaffolded identity" />
+    <MESSAGE value="identity adding files" />
+    <option name="LAST_COMMIT_MESSAGE" value="identity adding files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -511,6 +531,46 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml.cs</url>
+          <line>110</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Identity\Pages\Account\Register.cshtml.cs" initialLine="110" containingFunctionPresentation="method 'OnPostAsync'">
+            <startOffsets>
+              <option value="4775" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4807" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml.cs</url>
+          <line>112</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Identity\Pages\Account\Register.cshtml.cs" initialLine="112" containingFunctionPresentation="method 'OnPostAsync'">
+            <startOffsets>
+              <option value="4922" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4945" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBook/Views/Shared/_LoginPartial.cshtml</url>
+          <line>6</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Views\Shared\_LoginPartial.cshtml" initialLine="6" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
