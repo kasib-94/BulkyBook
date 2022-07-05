@@ -1,8 +1,10 @@
 using BulkyBook.Data.IRepository;
 using BulkyBook.Data.Repository;
 using BulkyBook.Data.Data;
+using BulkyBook.Utility;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
@@ -10,7 +12,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));;
 
-builder.Services.AddDefaultIdentity<IdentityUser>()
+builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();;
 
 // Add services to the container.
@@ -20,6 +22,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(opions =>
     opions.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 var app = builder.Build();
 
 
