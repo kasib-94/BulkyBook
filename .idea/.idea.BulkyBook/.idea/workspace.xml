@@ -12,19 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BulkyBook.Utility/EmailSender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Company/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Company/Upsert.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/wwwroot/js/company.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/BulkyBook.Utility.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/BulkyBook.Utility.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/SD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CompanyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CompanyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +30,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a71dda88f1374cac4ff80d0a02382fa929ca13d5844490934a9c298f24ab67/SelectListItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dbb9b76d07e4477885c165cd6116d8cca23880/_bb40f/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e39ba3357e1f443b65a76fc85efc6229329ac60a128b3d14d39bdb56ac7b9/IUserStore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -183,7 +176,8 @@
       <workItem from="1656337763656" duration="2346000" />
       <workItem from="1656854379600" duration="615000" />
       <workItem from="1656933629428" duration="15947000" />
-      <workItem from="1657048751459" duration="2102000" />
+      <workItem from="1657048751459" duration="10540000" />
+      <workItem from="1657714260098" duration="6468000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -297,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656204471987</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Creating company.js, Company Views, Company Controller, Creating roles in identity">
+      <created>1657051271272</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657051271272</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +334,8 @@
     <MESSAGE value="adding scaffolded identity" />
     <MESSAGE value="identity adding files" />
     <MESSAGE value="addint company mv" />
-    <option name="LAST_COMMIT_MESSAGE" value="addint company mv" />
+    <MESSAGE value="Creating company.js, Company Views, Company Controller, Creating roles in identity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating company.js, Company Views, Company Controller, Creating roles in identity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
