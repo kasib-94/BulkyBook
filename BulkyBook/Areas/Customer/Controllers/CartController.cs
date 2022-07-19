@@ -3,6 +3,7 @@ using BulkyBook.Data.IRepository;
 using BulkyBook.Data.Repository;
 using BulkyBook.Models;
 using BulkyBook.Models.ViewModels;
+using BulkyBook.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,7 +13,8 @@ namespace BulkyBook.Controllers;
 public class CartController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;
-    public  ShoppingCartVM ShoppingCartVm;
+    [BindProperty]
+    public  ShoppingCartVM ShoppingCartVm { get; set; }
 
 
     public CartController(IUnitOfWork unitOfWork)
@@ -78,10 +80,13 @@ public class CartController : Controller
         var claimsIdentity = (ClaimsIdentity)User.Identity;
         var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
-        ShoppingCartVm.ListCart =
-            _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value, includeProperties: "Product");
-       
-       
+        ShoppingCartVm.ListCart = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value, includeProperties: "Product");
+
+        ShoppingCartVm.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
+        ShoppingCartVm.OrderHeader.OrderStatus = SD.StatusPending;
+        ShoppingCartVm.OrderHeader.OrderDate = System.DateTime.Now;
+        ShoppingCartVm.OrderHeader.ApplicationUserId = claim.Value;
+        
         
         foreach (var cart  in ShoppingCartVm.ListCart)
         {
@@ -89,10 +94,27 @@ public class CartController : Controller
                 cart.Product.Price100);
             ShoppingCartVm.OrderHeader.OrderTotal += cart.Price * cart.Count;
         }
-        return View(ShoppingCartVm);
+        
+        _unitOfWork.OrderHeader.Add(ShoppingCartVm.OrderHeader);
+        _unitOfWork.Save();
+        
+        foreach (var cart  in ShoppingCartVm.ListCart)
+        {
+            OrderDetail orderDetail = new()
+            {
+                ProductId = cart.ProductId,
+                OrderId = ShoppingCartVm.OrderHeader.Id,
+                Price = cart.Price,
+                Count = cart.Count,
+            };
+            _unitOfWork.OrderDetail.Add(orderDetail);
+            _unitOfWork.Save();
+        }
 
+        _unitOfWork.ShoppingCart.RemoveRange(ShoppingCartVm.ListCart);
+        _unitOfWork.Save();
 
-       
+        return RedirectToAction("Index", "Home");
     }
 
     private double GetPriceBasedOnQuantity(double quantity, double price, double price50, double price100)
