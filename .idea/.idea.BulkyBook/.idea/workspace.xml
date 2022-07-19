@@ -11,14 +11,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="Working on register model/view, adding roles">
-      <change afterPath="$PROJECT_DIR$/BulkyBook.Models/ShoppingCart.cs" afterDir="false" />
+    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/ApplicationUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IApplicationUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IShoppingCartRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/ShoppingCartRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/UnitOfWork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/ApplicationUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/ApplicationUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/ShoppingCart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/ShoppingCart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Home/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Home/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +41,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5330988bfaacf93f15e30f9b3dd6018a768f89da3b38d874fda77299c62164/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a71dda88f1374cac4ff80d0a02382fa929ca13d5844490934a9c298f24ab67/SelectListItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dbb9b76d07e4477885c165cd6116d8cca23880/_bb40f/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e39ba3357e1f443b65a76fc85efc6229329ac60a128b3d14d39bdb56ac7b9/IUserStore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook/Areas/Identity/Pages/Account/Register.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Views/Category/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -60,6 +68,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.49542683&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -182,7 +191,13 @@
       <workItem from="1656854379600" duration="615000" />
       <workItem from="1656933629428" duration="15947000" />
       <workItem from="1657048751459" duration="10540000" />
-      <workItem from="1657714260098" duration="11872000" />
+      <workItem from="1657714260098" duration="15499000" />
+      <workItem from="1657804937923" duration="3673000" />
+      <workItem from="1657889137224" duration="595000" />
+      <workItem from="1657897372343" duration="596000" />
+      <workItem from="1657901564473" duration="2722000" />
+      <workItem from="1658177959360" duration="2879000" />
+      <workItem from="1658184269787" duration="10422000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -310,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657724404496</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="finishing register page/ adding company funcionality, company id to application user model">
+      <created>1657729954329</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657729954329</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,24 +370,12 @@
     <MESSAGE value="addint company mv" />
     <MESSAGE value="Creating company.js, Company Views, Company Controller, Creating roles in identity" />
     <MESSAGE value="Working on register model/view, adding roles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on register model/view, adding roles" />
+    <MESSAGE value="finishing register page/ adding company funcionality, company id to application user model" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing register page/ adding company funcionality, company id to application user model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook.Data/Repository/Repository.cs</url>
-          <line>44</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook.Data\Repository\Repository.cs" initialLine="44" containingFunctionPresentation="method 'GetFirstOrDefault'">
-            <startOffsets>
-              <option value="1320" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1347" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CategoryController.cs</url>
           <line>91</line>
@@ -471,18 +481,43 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Views/Shared/_LoginPartial.cshtml</url>
-          <line>6</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Views\Shared\_LoginPartial.cshtml" initialLine="6" isMultiMethodBreakpoint="true">
-            <option name="multiMethodBreakpoint" value="true" />
+          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/HomeController.cs</url>
+          <line>43</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\HomeController.cs" initialLine="43" containingFunctionPresentation="method 'Details'">
             <startOffsets>
-              <option value="-1" />
+              <option value="1217" />
             </startOffsets>
             <endOffsets>
-              <option value="-1" />
+              <option value="1218" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/HomeController.cs</url>
+          <line>52</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\HomeController.cs" initialLine="52" containingFunctionPresentation="method 'Details'">
+            <startOffsets>
+              <option value="1598" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1621" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/HomeController.cs</url>
+          <line>58</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\HomeController.cs" initialLine="58" containingFunctionPresentation="method 'Details'">
+            <startOffsets>
+              <option value="1733" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1805" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
