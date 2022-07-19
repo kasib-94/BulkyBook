@@ -11,16 +11,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="adding applicationuser / shoppingcart to repository, editing ShoppingCart.cs, editing HomeController.cs to add products to shoppingCart, Fixing Login/Logout/AccessDenied path in Program.cs">
-      <change afterPath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/ShoppingCartVM.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/Index.cshtml" afterDir="false" />
+    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="Creatin CartController.cs , ShoppingCartVM.cs and CartController View, fixing price depending on quantity in cart, adding filter to GetAll method in Repository.cs,">
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IOrderDetailRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IOrderHeaderRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderDetailRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderHeaderRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Models/OrderDetail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Models/OrderHeader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/Summary.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/Repository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/20220530145157_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/20220530145157_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/20220530154823_validators for covertype.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/20220530154823_validators for covertype.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/20220530175943_adding-product.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/20220530175943_adding-product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/UnitOfWork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/ShoppingCart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/ShoppingCart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/ShoppingCartVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/ShoppingCartVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Utility/SD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +50,19 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37a954845b52703c5cce1aacf8fa1292378878e82bf68c4c4b5effc447316e9/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5330988bfaacf93f15e30f9b3dd6018a768f89da3b38d874fda77299c62164/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a71dda88f1374cac4ff80d0a02382fa929ca13d5844490934a9c298f24ab67/SelectListItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dbb9b76d07e4477885c165cd6116d8cca23880/_bb40f/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e39ba3357e1f443b65a76fc85efc6229329ac60a128b3d14d39bdb56ac7b9/IUserStore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Data/Repository/IRepository/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Data/Repository/Repository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Models/ViewModels/ShoppingCart.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook/Areas/Customer/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Views/Category/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -194,7 +213,7 @@
       <workItem from="1657897372343" duration="596000" />
       <workItem from="1657901564473" duration="2722000" />
       <workItem from="1658177959360" duration="2879000" />
-      <workItem from="1658184269787" duration="16302000" />
+      <workItem from="1658184269787" duration="30627000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -336,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658199336152</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Creatin CartController.cs , ShoppingCartVM.cs and CartController View, fixing price depending on quantity in cart, adding filter to GetAll method in Repository.cs,">
+      <created>1658205124771</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658205124771</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +402,8 @@
     <MESSAGE value="Working on register model/view, adding roles" />
     <MESSAGE value="finishing register page/ adding company funcionality, company id to application user model" />
     <MESSAGE value="adding applicationuser / shoppingcart to repository, editing ShoppingCart.cs, editing HomeController.cs to add products to shoppingCart, Fixing Login/Logout/AccessDenied path in Program.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding applicationuser / shoppingcart to repository, editing ShoppingCart.cs, editing HomeController.cs to add products to shoppingCart, Fixing Login/Logout/AccessDenied path in Program.cs" />
+    <MESSAGE value="Creatin CartController.cs , ShoppingCartVM.cs and CartController View, fixing price depending on quantity in cart, adding filter to GetAll method in Repository.cs," />
+    <option name="LAST_COMMIT_MESSAGE" value="Creatin CartController.cs , ShoppingCartVM.cs and CartController View, fixing price depending on quantity in cart, adding filter to GetAll method in Repository.cs," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,19 +511,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/HomeController.cs</url>
-          <line>58</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\HomeController.cs" initialLine="58" containingFunctionPresentation="method 'Details'">
-            <startOffsets>
-              <option value="1733" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1805" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
