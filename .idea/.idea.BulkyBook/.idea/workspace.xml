@@ -11,10 +11,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="adding OrderDetail.cs, OrderHeader.cs Models,  adding OrderDetail.cs, OrderHeader.cs Models to DBContext, Adding adding OrderDetail.cs, OrderHeader.cs to Repository, Finishing Summary.cshtml View, and making actions in cart controller. adding delivery status to SD.cs">
+    <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Utility/StripeSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/OderConfirmation.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IOrderHeaderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IOrderHeaderRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderHeaderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderHeaderRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/Summary.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/Summary.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +44,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dbb9b76d07e4477885c165cd6116d8cca23880/_bb40f/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e39ba3357e1f443b65a76fc85efc6229329ac60a128b3d14d39bdb56ac7b9/IUserStore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Data/Data/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Data/Repository/IRepository/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Data/Repository/IRepository/IUnitOfWork.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Data/Repository/Repository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Data/Repository/UnitOfWork.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Models/ViewModels/ShoppingCart.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Models/ViewModels/ShoppingCartVM.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook.Utility/SD.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook/Areas/Customer/Controllers/CartController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook/Areas/Customer/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook/Areas/Customer/Views/Cart/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/jakcz/RiderProjects/BulkyBook/BulkyBook/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Views/Category/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -199,7 +194,10 @@
       <workItem from="1657897372343" duration="596000" />
       <workItem from="1657901564473" duration="2722000" />
       <workItem from="1658177959360" duration="2879000" />
-      <workItem from="1658184269787" duration="33836000" />
+      <workItem from="1658184269787" duration="40034000" />
+      <workItem from="1658231101768" duration="1401000" />
+      <workItem from="1658264687179" duration="1654000" />
+      <workItem from="1658327853310" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -362,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658221075125</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Finnishing summaryPOST method by creating OrderDetails, removing items from shoppingCart">
+      <created>1658224353304</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1658224353304</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +410,8 @@
     <MESSAGE value="Creatin CartController.cs , ShoppingCartVM.cs and CartController View, fixing price depending on quantity in cart, adding filter to GetAll method in Repository.cs," />
     <MESSAGE value="database error, migrations lost, all deleted and dropped" />
     <MESSAGE value="adding OrderDetail.cs, OrderHeader.cs Models,  adding OrderDetail.cs, OrderHeader.cs Models to DBContext, Adding adding OrderDetail.cs, OrderHeader.cs to Repository, Finishing Summary.cshtml View, and making actions in cart controller. adding delivery status to SD.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding OrderDetail.cs, OrderHeader.cs Models,  adding OrderDetail.cs, OrderHeader.cs Models to DBContext, Adding adding OrderDetail.cs, OrderHeader.cs to Repository, Finishing Summary.cshtml View, and making actions in cart controller. adding delivery status to SD.cs" />
+    <MESSAGE value="Finnishing summaryPOST method by creating OrderDetails, removing items from shoppingCart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finnishing summaryPOST method by creating OrderDetails, removing items from shoppingCart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,29 +522,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs</url>
-          <line>79</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\CartController.cs" initialLine="78" containingFunctionPresentation="method 'SummaryPOST'">
-            <startOffsets>
-              <option value="2981" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3032" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs</url>
           <line>80</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\CartController.cs" initialLine="79" containingFunctionPresentation="method 'SummaryPOST'">
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\CartController.cs" initialLine="80" containingFunctionPresentation="method 'SummaryPOST'">
             <startOffsets>
-              <option value="3041" />
+              <option value="2986" />
             </startOffsets>
             <endOffsets>
-              <option value="3105" />
+              <option value="2987" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="49" />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
