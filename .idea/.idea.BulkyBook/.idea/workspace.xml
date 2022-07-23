@@ -12,17 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BulkyBook.Utility/StripeSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/OderConfirmation.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IOrderHeaderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IOrderHeaderRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderHeaderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderHeaderRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/Summary.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Views/Cart/Summary.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/BulkyBook.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +31,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37a954845b52703c5cce1aacf8fa1292378878e82bf68c4c4b5effc447316e9/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5330988bfaacf93f15e30f9b3dd6018a768f89da3b38d874fda77299c62164/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d9a41d47547e1fe7fe548b21ab4de12cc2671170a023bc8c629017837eb5f4/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a71dda88f1374cac4ff80d0a02382fa929ca13d5844490934a9c298f24ab67/SelectListItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dbb9b76d07e4477885c165cd6116d8cca23880/_bb40f/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e39ba3357e1f443b65a76fc85efc6229329ac60a128b3d14d39bdb56ac7b9/IUserStore.cs" root0="SKIP_HIGHLIGHTING" />
@@ -197,7 +189,8 @@
       <workItem from="1658184269787" duration="40034000" />
       <workItem from="1658231101768" duration="1401000" />
       <workItem from="1658264687179" duration="1654000" />
-      <workItem from="1658327853310" duration="396000" />
+      <workItem from="1658327853310" duration="2861000" />
+      <workItem from="1658519538678" duration="6252000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -367,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658224353304</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="addding stripe to settings, order confirmation view, all payment processing">
+      <created>1658328310762</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658328310762</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +411,8 @@
     <MESSAGE value="database error, migrations lost, all deleted and dropped" />
     <MESSAGE value="adding OrderDetail.cs, OrderHeader.cs Models,  adding OrderDetail.cs, OrderHeader.cs Models to DBContext, Adding adding OrderDetail.cs, OrderHeader.cs to Repository, Finishing Summary.cshtml View, and making actions in cart controller. adding delivery status to SD.cs" />
     <MESSAGE value="Finnishing summaryPOST method by creating OrderDetails, removing items from shoppingCart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finnishing summaryPOST method by creating OrderDetails, removing items from shoppingCart" />
+    <MESSAGE value="addding stripe to settings, order confirmation view, all payment processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="addding stripe to settings, order confirmation view, all payment processing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -522,16 +523,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs</url>
-          <line>80</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\CartController.cs" initialLine="80" containingFunctionPresentation="method 'SummaryPOST'">
+          <line>48</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\CartController.cs" initialLine="48" containingFunctionPresentation="method 'Summary'">
             <startOffsets>
-              <option value="2986" />
+              <option value="1419" />
             </startOffsets>
             <endOffsets>
-              <option value="2987" />
+              <option value="1470" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs</url>
+          <line>197</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\CartController.cs" initialLine="178" containingFunctionPresentation="method 'OderConfirmation'">
+            <startOffsets>
+              <option value="7097" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7098" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs</url>
+          <line>100</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Customer\Controllers\CartController.cs" initialLine="100" containingFunctionPresentation="method 'SummaryPOST'">
+            <startOffsets>
+              <option value="3848" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3901" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
