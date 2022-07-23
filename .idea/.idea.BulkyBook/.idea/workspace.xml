@@ -12,8 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/OrderVM.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/OrderController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Order/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Order/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Order/PaymentConfirmation.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBook/wwwroot/js/order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderHeaderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderHeaderRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/Repository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +200,8 @@
       <workItem from="1658231101768" duration="1401000" />
       <workItem from="1658264687179" duration="1654000" />
       <workItem from="1658327853310" duration="2861000" />
-      <workItem from="1658519538678" duration="6252000" />
+      <workItem from="1658519538678" duration="22016000" />
+      <workItem from="1658551551182" duration="6869000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -367,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658328310762</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="editing cart controller for customer case - company, when there is delayedPayment">
+      <created>1658535436748</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658535436749</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +430,8 @@
     <MESSAGE value="adding OrderDetail.cs, OrderHeader.cs Models,  adding OrderDetail.cs, OrderHeader.cs Models to DBContext, Adding adding OrderDetail.cs, OrderHeader.cs to Repository, Finishing Summary.cshtml View, and making actions in cart controller. adding delivery status to SD.cs" />
     <MESSAGE value="Finnishing summaryPOST method by creating OrderDetails, removing items from shoppingCart" />
     <MESSAGE value="addding stripe to settings, order confirmation view, all payment processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="addding stripe to settings, order confirmation view, all payment processing" />
+    <MESSAGE value="editing cart controller for customer case - company, when there is delayedPayment" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing cart controller for customer case - company, when there is delayedPayment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
