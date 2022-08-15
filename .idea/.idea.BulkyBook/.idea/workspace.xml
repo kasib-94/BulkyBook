@@ -12,17 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36f10e7a-2a1a-4d97-846e-5c5e6b6b50ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BulkyBook.Models/ViewModels/OrderVM.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/OrderController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Order/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Order/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Order/PaymentConfirmation.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkyBook/wwwroot/js/order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/IRepository/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderHeaderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/OrderHeaderRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBook.Data/Repository/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/Repository/Repository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Data/obj/Debug/net6.0/BulkyBook.Data.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CompanyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CompanyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CoverTypeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CoverTypeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Order/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Order/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Product/Upsert.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Areas/Admin/Views/Product/Upsert.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +35,18 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/17a25bf4cd58852e31b6bc798fef1d6289441360eea1912bf89a9b4fd337a3/SingleQueryingEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37a954845b52703c5cce1aacf8fa1292378878e82bf68c4c4b5effc447316e9/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5330988bfaacf93f15e30f9b3dd6018a768f89da3b38d874fda77299c62164/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d9a41d47547e1fe7fe548b21ab4de12cc2671170a023bc8c629017837eb5f4/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a71dda88f1374cac4ff80d0a02382fa929ca13d5844490934a9c298f24ab67/SelectListItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/acf1b6abd0c65bfb4dd378fac91ee884d46073faa6295340469651abdca69/PageModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dbb9b76d07e4477885c165cd6116d8cca23880/_bb40f/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e39ba3357e1f443b65a76fc85efc6229329ac60a128b3d14d39bdb56ac7b9/IUserStore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ffcaccdb699eb1d5444850edb7642342f5bde7f870a89d68e13069a77aabac94/IdentityRole.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BulkyBook/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../BulkyBookWeb/Views/Category/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -73,7 +74,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.intentionPowerPack&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -201,7 +202,54 @@
       <workItem from="1658264687179" duration="1654000" />
       <workItem from="1658327853310" duration="2861000" />
       <workItem from="1658519538678" duration="22016000" />
-      <workItem from="1658551551182" duration="6869000" />
+      <workItem from="1658551551182" duration="9349000" />
+      <workItem from="1658573377922" duration="23000" />
+      <workItem from="1658573722367" duration="723000" />
+      <workItem from="1658574910510" duration="1485000" />
+      <workItem from="1658577355786" duration="525000" />
+      <workItem from="1658578056204" duration="297000" />
+      <workItem from="1658580613421" duration="114000" />
+      <workItem from="1658580989370" duration="1080000" />
+      <workItem from="1658582406536" duration="235000" />
+      <workItem from="1658583063405" duration="14000" />
+      <workItem from="1658583224208" duration="4000" />
+      <workItem from="1658583952185" duration="27000" />
+      <workItem from="1658584648194" duration="10000" />
+      <workItem from="1658585151542" duration="16000" />
+      <workItem from="1658585374043" duration="1446000" />
+      <workItem from="1658586919334" duration="1227000" />
+      <workItem from="1658597288515" duration="4050000" />
+      <workItem from="1658601676422" duration="670000" />
+      <workItem from="1658603440295" duration="876000" />
+      <workItem from="1658604972580" duration="15000" />
+      <workItem from="1658606471369" duration="1087000" />
+      <workItem from="1658609057827" duration="3270000" />
+      <workItem from="1659015213305" duration="3027000" />
+      <workItem from="1659018939518" duration="267000" />
+      <workItem from="1659019370012" duration="5459000" />
+      <workItem from="1659154017599" duration="3037000" />
+      <workItem from="1659165900817" duration="2462000" />
+      <workItem from="1659175200490" duration="78000" />
+      <workItem from="1659175478344" duration="102000" />
+      <workItem from="1659176040701" duration="226000" />
+      <workItem from="1659176417760" duration="1219000" />
+      <workItem from="1659177781468" duration="42000" />
+      <workItem from="1659178848897" duration="2189000" />
+      <workItem from="1659181113414" duration="27000" />
+      <workItem from="1659185044756" duration="542000" />
+      <workItem from="1659185798650" duration="4539000" />
+      <workItem from="1659194731011" duration="1268000" />
+      <workItem from="1659196412487" duration="3843000" />
+      <workItem from="1659225105426" duration="200000" />
+      <workItem from="1659287018881" duration="660000" />
+      <workItem from="1659298775347" duration="60000" />
+      <workItem from="1659540418246" duration="977000" />
+      <workItem from="1659638129296" duration="1296000" />
+      <workItem from="1660257867778" duration="4038000" />
+      <workItem from="1660341701052" duration="1250000" />
+      <workItem from="1660400435070" duration="3717000" />
+      <workItem from="1660562853905" duration="1068000" />
+      <workItem from="1660564297391" duration="3478000" />
     </task>
     <task id="LOCAL-00001" summary="adding aditional projects for db and model and utility">
       <created>1653381129562</created>
@@ -385,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658535436749</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="adding all order functionality/ order details form/ posibility to edit for admin/employee, startProcessing, ShipOrder, PayNow(for companies late payment), CancelOrder with actions in controllers">
+      <created>1658570815490</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1658570815490</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="adding aditional projects for db and model and utility" />
     <MESSAGE value="attaching main project, adding Respository Pattern" />
     <MESSAGE value="commiting after fixing error" />
     <MESSAGE value="." />
@@ -431,114 +485,37 @@
     <MESSAGE value="Finnishing summaryPOST method by creating OrderDetails, removing items from shoppingCart" />
     <MESSAGE value="addding stripe to settings, order confirmation view, all payment processing" />
     <MESSAGE value="editing cart controller for customer case - company, when there is delayedPayment" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing cart controller for customer case - company, when there is delayedPayment" />
+    <MESSAGE value="adding all order functionality/ order details form/ posibility to edit for admin/employee, startProcessing, ShipOrder, PayNow(for companies late payment), CancelOrder with actions in controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding all order functionality/ order details form/ posibility to edit for admin/employee, startProcessing, ShipOrder, PayNow(for companies late payment), CancelOrder with actions in controllers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CategoryController.cs</url>
-          <line>91</line>
+          <line>94</line>
           <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\CategoryController.cs" initialLine="91" containingFunctionPresentation="method 'Delete'">
             <startOffsets>
-              <option value="2177" />
+              <option value="2279" />
             </startOffsets>
             <endOffsets>
-              <option value="2178" />
+              <option value="2280" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/CategoryController.cs</url>
-          <line>92</line>
+          <line>95</line>
           <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\CategoryController.cs" initialLine="92" containingFunctionPresentation="method 'Delete'">
             <startOffsets>
-              <option value="2187" />
+              <option value="2289" />
             </startOffsets>
             <endOffsets>
-              <option value="2213" />
+              <option value="2315" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs</url>
-          <line>129</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\ProductController.cs" initialLine="129" containingFunctionPresentation="method 'Delete'">
-            <startOffsets>
-              <option value="3618" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3654" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs</url>
-          <line>130</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\ProductController.cs" initialLine="130" containingFunctionPresentation="method 'Delete'">
-            <startOffsets>
-              <option value="3663" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3664" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs</url>
-          <line>132</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\ProductController.cs" initialLine="132" containingFunctionPresentation="method 'Delete'">
-            <startOffsets>
-              <option value="3674" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3706" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs</url>
-          <line>133</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\ProductController.cs" initialLine="133" containingFunctionPresentation="method 'Delete'">
-            <startOffsets>
-              <option value="3715" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3742" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs</url>
-          <line>134</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\ProductController.cs" initialLine="134" containingFunctionPresentation="method 'Delete'">
-            <startOffsets>
-              <option value="3751" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3822" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs</url>
-          <line>135</line>
-          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\ProductController.cs" initialLine="135" containingFunctionPresentation="method 'Delete'">
-            <startOffsets>
-              <option value="3827" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3828" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BulkyBook/Areas/Customer/Controllers/CartController.cs</url>
@@ -578,6 +555,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBook/Areas/Admin/Controllers/ProductController.cs</url>
+          <line>61</line>
+          <properties documentPath="C:\Users\jakcz\RiderProjects\BulkyBook\BulkyBook\Areas\Admin\Controllers\ProductController.cs" initialLine="61" containingFunctionPresentation="method 'Upsert'">
+            <startOffsets>
+              <option value="1598" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1599" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

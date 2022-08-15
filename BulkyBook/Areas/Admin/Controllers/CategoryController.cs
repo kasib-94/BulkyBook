@@ -2,12 +2,15 @@
 using BulkyBook.Data.Repository;
 using BulkyBook.Models;
 using BulkyBook.Models;
+using BulkyBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Category = BulkyBook.Models.Category;
 
 namespace BulkyBook.Controllers;
 
 [Area("Admin")]
+[Authorize(Roles = SD.Role_Admin)]
 public class CategoryController : Controller
 
 {

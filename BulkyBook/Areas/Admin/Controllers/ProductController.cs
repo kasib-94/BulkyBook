@@ -1,11 +1,13 @@
 ﻿using BulkyBook.Data.IRepository;
 using BulkyBook.Models;
 using BulkyBook.Models.ViewModels;
+using BulkyBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BulkyBook.Controllers;
-
+[Authorize(Roles = SD.Role_Admin)]
 [Area("Admin")]
 public class ProductController : Controller
 {
